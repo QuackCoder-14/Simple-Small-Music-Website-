@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.container{
+    height: 650px;
+    width: 90%;
+    position: relative;
+    background: white;
+    box-shadow: -10px -10px 15px white,
+    10px 10px 15px rgba(0,0,0,0.2),
+    inset -5px -5px 15px white,
+    inset 5px 5px 15px rgba(0,0,0,0.2);
+    margin: 35px auto;
+}
+.container h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    color: hotpink;
+    text-shadow:1px 2px 1px rgba(0,0,0,0.3);
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15px;
+    text-transform: uppercase;
+   transition: 0.5s;
+    padding: 5px 10px;
+}
+.navbar ul li:hover {
+    background: hotpink;
+    color: white;
+}
+/* .navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+} */
+
+.image{
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.image img{
+    height: 600px;
+    width: 550px;
+  
+}
+.container .content{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+.content h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.content p{
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 10px 60px;
+    background: transparent;
+    border: 1px solid hotpink;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    background: hotpink;
+    /* letter-spacing: 0.5px; */
+    color: white;
+    /* border: none; */
+}
